@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Redacted";
+  src: url("../fonts/redacted/redacted-regular.eot");
+  src: url("../fonts/redacted/redacted-regular.woff2") format("woff2"), url("../fonts/redacted/redacted-regular.woff") format("woff"), url("../fonts/redacted/redacted-regular.otf") format("opentype"), url("../fonts/redacted/redacted-regular.svg#filename") format("svg"); }
+.content {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Redacted";
+  color: #ddd;
+  margin-top: 20px;
+  font-size: 24px; }
+  .content h1,
+  .content h3,
+  .content p,
+  .content blockquote {
+    margin-bottom: 10px;
+    line-height: 40px; }
+  .content blockquote {
+    padding: 10px;
+    border-left: 5px solid green; }
+  .content div {
+    height: 300px;
+    width: 550px;
+    background-color: #ddd;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+
+.wrapper {
+  margin: 20px;
+  height: 10px;
+  width: 180px;
+  background-color: grey;
+  position: relative; }
+  .wrapper .marker {
+    height: 20px;
+    width: 5px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -25%);
+    cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

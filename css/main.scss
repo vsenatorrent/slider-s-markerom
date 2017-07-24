@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import 'fonts.scss';
+@import 'content.scss';
+
+
+.wrapper {
+  margin: 20px;
+  height: 10px;
+  width: 180px;
+  background-color: grey;
+  position: relative;
+  .marker {
+    height: 20px;
+    width: 5px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -25%);
+    cursor: pointer;
+  }
+}
